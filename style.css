@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #1B9CFC;
+}
+#middle{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:  translate(-50%,-50%);
+    background-color: #25CCF7;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#pannel{
+    width: 100%;
+    height: 100px;
+    background-color: #6969d0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around   ;
+}
+.mention{
+    width: 180px;
+    height: 60%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;  
+    /* color: white; */
+}
+.a{
+    width: 50%;
+    height: 80%;
+    font-size: 25px;
+    font-family: 'gilroy';
+    border-radius: 10px;
+    background-color: rgb(170, 187, 201);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+
+}
+.mention h1{
+    font-size: 20px;
+}
+#bottom{
+
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px ;
+}
+.bubble{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    /* margin-top: 25px; */
+    
+}
+.bubble h4{
+    font-size: 25px;
+}
